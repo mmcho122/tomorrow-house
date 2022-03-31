@@ -5,6 +5,8 @@
 @import 'base/normalize';
 @import 'base/reset';
 
+@import 'layouts/grids';
+
 $test1: 1;
 $test2: color 200ms ease-in-out;
 $test3: url('./assets/images/logo.svg');
