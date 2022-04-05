@@ -18,10 +18,12 @@
   }
 
   .logo {
+    $padding: 8px;
     @include pos-center;
 
     a {
       display: block;
+      padding: $padding;
     }
 
     img {
@@ -53,8 +55,9 @@
     }
 
     .logo {
+      $padding: 8px;
       position: static;
-      margin-right: 32px;
+      margin-right: 32px - ($padding);
       transform: none;
 
       img {
